@@ -1,0 +1,13 @@
+# virtual environments
+env
+venv
+
+# build artifacts
+build
+dist
+
+# vscode
+.vs
+
+# dev
+test
