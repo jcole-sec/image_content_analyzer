@@ -29,7 +29,7 @@ def get_images(srcdir):
                     if 'image' in file_type.lower():
                         image_files.append(srcfile)
             except:
-                print(f'[*] Extension-filter Error on file: {image}')
+                print(f'[*] Extension-filter Error on file: {srcfile}')
                 pass
     return image_files
 
